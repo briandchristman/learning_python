@@ -4,7 +4,7 @@ adj2 = input("Enter an adjective:") # get second descriptor
 adj3 = input("Enter an adjective:") # get third descriptor
 
 # setting ititial variables
-oldstring = "%s is the %s!" % (name, adj1)
+oldstring = "%s is %s!" % (name, adj1)
 addstring = "Hey! Hey! Hey! Hey!"
 
 # declare variable newstring initialize
