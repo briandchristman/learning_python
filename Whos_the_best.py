@@ -1,5 +1,9 @@
+name = input("What is your name? ") # Get name.
+
+
+
 # setting ititial variables
-oldstring = "Brian is the best!"
+oldstring = "%s is the best!" % name
 addstring = "Hey! Hey! Hey! Hey!"
 
 # declare variable newstring initialize
@@ -16,6 +20,4 @@ print(addstring.upper())
 
 
 
-name = raw_input("What is your name? ")
-quest = raw_input("What is your quest? ")
-color = raw_input("What is your favorite color? ")
+
